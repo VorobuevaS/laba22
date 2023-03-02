@@ -1,0 +1,6 @@
+n = int(input("Сколько слов?"))
+S = " "
+for i in range(n):
+    A = input()
+    S = S + A + " "
+print(S)
